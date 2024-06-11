@@ -80,10 +80,10 @@ nav li a{
 
 .header{
       background-color: #FFF8f3;
-      background-image: url(../images/header_bg.png);
+      background-image: url(../images/header_bg.png), url('../images/developer.png');
       background-repeat: no-repeat;
-      background-position:bottom right;
-      background-size: 800px;
+      background-position:bottom right,top left;
+      background-size: 750px, 110px;
       
 }
 
@@ -118,7 +118,7 @@ nav li a{
 
 .banner-description{
       font-size: 18px;
-      font-weight: 500s;
+      font-weight: 500;
       color: #888787;
       margin-top: 5px;
       margin-bottom: 40px;
@@ -182,8 +182,7 @@ justify-content: space-around;
       text-align: center;
       font-size: 25px;
       font-weight: 700;
-      color: #474747
-
+      color: #474747;
       margin-top: 0px;
       align-items: center;
 }
